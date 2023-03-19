@@ -28,7 +28,7 @@ public class Main {
         userMap.put(1, "田中");
         userMap.put(2, "佐藤");
         userMap.put(3, "鈴木");
-
+        
         System.out.println("名簿：" + userMap.size() + "件");
         for (Map.Entry<Integer, String> entry : userMap.entrySet()) {
             System.out.println(entry.getKey() + "番：" + entry.getValue() + "　様");
